@@ -1,0 +1,90 @@
+/* line 7, ../../compass/sass/layout/_header.scss */
+#header .menu-items li {
+  float: left;
+  list-style: none;
+  color: blue;
+}
+
+/* line 7, ../../compass/sass/layout/_footer.scss */
+#footer .menu-items li {
+  float: left;
+  list-style: none;
+  color: blue;
+}
+
+/* line 6, ../../compass/sass/views/_home.scss */
+* {
+  color: black;
+}
+
+/* line 10, ../../compass/sass/views/_home.scss */
+#box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  background-color: green;
+  height: 8em;
+  width: 8em;
+}
+
+/* line 17, ../../compass/sass/views/_home.scss */
+#circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-color: green;
+  height: 8em;
+  width: 8em;
+}
+
+/* line 24, ../../compass/sass/views/_home.scss */
+#square {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  background-color: green;
+  height: 8em;
+  width: 8em;
+}
+
+/* line 9, ../../compass/sass/styles.scss */
+.special {
+  float: left;
+}
+
+/* line 14, ../../compass/sass/styles.scss */
+#parent {
+  width: 75%;
+  float: left;
+  background-color: red;
+}
+/* line 18, ../../compass/sass/styles.scss */
+#parent .child {
+  width: 50%;
+  margin: auto;
+  background-color: white;
+}
+/* line 22, ../../compass/sass/styles.scss */
+#parent .child ul {
+  list-style: none;
+}
+/* line 24, ../../compass/sass/styles.scss */
+#parent .child ul li {
+  font-size: 20px;
+  color: red;
+}
+
+/* line 32, ../../compass/sass/styles.scss */
+#parent2 {
+  width: 25%;
+  float: left;
+  background-color: blue;
+}
+/* line 36, ../../compass/sass/styles.scss */
+#parent2 li {
+  font-size: 60px;
+  color: white;
+}
